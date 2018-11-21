@@ -11,6 +11,13 @@ namespace PruebaGit2
         static void Main(string[] args)
         {
             int A;
+            Console.Write("Digitge un Valor: ");
+            A = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Numero ingresado: {0}", A);
+
+            Console.ReadKey();
+
         }
     }
 }
